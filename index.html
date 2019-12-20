@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="div">
+            <div id="st">Завдання</div>
+            <div id="nd">
+
+            </div>
+            <div id="rd">Результат</div>
+        </div>
+
+
+
+        <div class="div">
+            <div id="st">1). Написати функцію, яка виводить поточну дату у вигляді:
+                Дата: 12 березня 2017 року
+                День тижня: неділя
+                Час: 15:08
+            </div>
+            <div id="nd">
+                <button onclick="callz1()">Виконати</button>
+            </div>
+            <div id="rd1"></div>
+        </div>
+
+
+
+        <div class="div">
+            <div id="st">2). Написати функцію, яка приймає об’єкт Date і повертає інформацію про день тижня у вигляді
+                об’єкта, що має поля:
+                - dayNumber - номер дня тижня для дати у звичайному форматі (1 – понеділок, 2 – вівторок, 3 – середа і
+                т.д);
+                - dayName – назва дня тижня українською мовою.
+            </div>
+            <div id="nd">
+                <button onclick="callz2()">Виконати</button>
+            </div>
+            <div id="rd2"></div>
+        </div>
+
+
+
+        <div class="div">
+            <div id="st">3). Знайти дату, яка була N днів назад </div>
+            <div id="nd">
+                <input type="text" id="daysAgo" />
+                <button onclick="callz3()">Виконати</button>
+            </div>
+            <div id="rd3"></div>
+        </div>
+
+        <div class="div">
+            <div id="st">4). Напишіть функцію, яка за заданим роком та номером місяця визначає останній день місяця.
+            </div>
+            <div id="nd">
+                <input type="text" id="year" />
+                <input type="text" id="month" />
+                <button onclick="callz4()">Виконати</button>
+            </div>
+            <div id="rd4"></div>
+        </div>
+
+        <div class="div">
+            <div id="st">5). Реалізуйте функцію, яка повертає об’єкт з двома полями:
+                - кількість секунд, яка пройшла від початку сьогоднішнього дня;
+                - кількість секунд до початку наступного дня.
+            </div>
+            <div id="nd">
+                <button onclick="callz5()">Виконати</button>
+            </div>
+            <div id="rd5"></div>
+        </div>
+
+
+        <div class="div">
+            <div id="st">6). Реалізуйте виведення теперішньої дати у вигляді рядка форматі ДД.ММ.РРРР.</div>
+            <div id="nd">
+                <button onclick="callz6()">Виконати</button>
+            </div>
+            <div id="rd6"></div>
+        </div>
+
+        <div class="div">
+            <div id="st">7). Напишіть функцію пошуку різниці між двома датами. </div>
+            <div id="nd">
+                <button onclick="callz7()">Виконати</button>
+            </div>
+            <div id="rd7"></div>
+        </div>
+
+        <div class="div">
+
+            <div id="st">8). Напишіть функцію formatDate(date), яка форматує дату date так:
+                - якщо з часу date пройшло менше секунди, то повертає рядок «тільки що»;
+                - інакше, якщо з часу date пройшло менше хвилини, то «n сек. назад»;
+                - інакше, якщо пройшло менше години, то «m хв. назад»;
+                - інакше, повна дата у форматі «дд.мм.рр гг:мм».
+            </div>
+            <div id="nd">
+                <input type="text" id="date1" />
+                <button onclick="callz8()">Виконати</button>
+            </div>
+            <div id="rd8"></div>
+        </div>
+
+        <div class="div">
+            <div id="st">9). Напишіть функцію, яка за введеним користувачем рядом формує об’єкт date. Передбачте кілька
+                форматів представлення дати і напишіть інформацію про підтримувані формати на сторінці.</div>
+            <div id="nd">
+                <input type="text" id="date2"/>
+                <button onclick="callz9()">Виконати</button>
+                <p>Приймає дату у вигляді</p>
+                <p>yyyy.mm.dd</p>
+                <p>yyyy:mm.dd</p>
+                <p>yyyy.mm:dd</p>
+                <p>yyyy:mm:dd</p>
+            </div>
+            <div id="rd9"></div>
+        </div>
+
+        <div class="div">
+            <div id="st">10). Реалізуйте виведення дати на вказаній мові (мова вказується 2-х значним кодом, наприклад:
+                ru, uk, en) у форматі:
+                неділя, 12 березня 2017 нашої ери, 15:05:00
+            </div>
+            <div id="nd">
+                <input type="text" id="lang"/>
+                <button onclick="callz10()">Виконати</button>
+                <p>Приймає формат [ ua , en ]</p>
+            </div>
+            <div id="rd10"></div>
+        </div>
+        <script type="text/javascript" src="lab3lib.js"></script>
+        <script type="text/javascript" src="lab3.js"></script>
+    </div>
+</body>
+
+</html>
